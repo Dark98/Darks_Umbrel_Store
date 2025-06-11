@@ -1,4 +1,13 @@
+version: "3.7"
+
 services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: dus-windows-arm_windows_1
+      APP_PORT: 8006
+
   windows:
     image: dockurr/windows
     container_name: windows
