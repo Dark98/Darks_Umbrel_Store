@@ -2,20 +2,20 @@ version: "3.7"
 
 services:
   app_proxy:
+    image: getumbrel/umbrel-app-proxy:latest
+    restart: unless-stopped
     environment:
       APP_HOST: spoolman
       APP_PORT: 8000
-    depends_on:
-      - spoolman
 
   spoolman:
     image: ghcr.io/donkie/spoolman:latest
     restart: unless-stopped
+    init: true
+    user: "1000:1000"
     volumes:
       - type: bind
         source: ${APP_DATA_DIR}/data
         target: /home/app/.local/share/spoolman
     environment:
       TZ: Europe/Stockholm
-      user: "1000:1000"
-      init: true

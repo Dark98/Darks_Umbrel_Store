@@ -1,0 +1,7 @@
+id: sparkles-spoolman
+version: "0.1.0"
+name: Spoolman
+description: Track your filament spools
+author: Dark98
+port: 8000
+dataDir: true
