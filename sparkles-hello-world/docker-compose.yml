@@ -6,7 +6,7 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 7905
+      APP_PORT: 3000
     
   spoolman:
     image: ghcr.io/donkie/spoolman:latest
@@ -21,3 +21,5 @@ services:
       - "7912:8000"
     environment:
       - TZ=Europe/Stockholm # Optional, defaults to UTC
+      user: "1000:1000"
+      init: true
