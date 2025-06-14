@@ -2,16 +2,10 @@ manifestVersion: 1
 id: dus-spoolman
 name: Spoolman
 tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
-port: 7912
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
-
+  testing
 developer: Dark98
 website: https://umbrel.com
 submitter: Dark98
@@ -20,10 +14,8 @@ repo: https://github.com/getumbrel/umbrel-hello-world-app
 support: https://github.com/getumbrel/umbrel-hello-world-app/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  testing 2
 dependencies: []
 path: ""
 defaultUsername: ""
