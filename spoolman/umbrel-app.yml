@@ -1,23 +1,41 @@
 manifestVersion: 1
-id: dus-spoolman
-name: Spoolman
-tagline: Replace this tagline with your app's tagline
-category: Development
-version: "1.0.0"
-port: 7912
+id: spoolman
+category: developer
+name: spoolman
+version: "4.100.3"
+tagline: Run VS Code on your Umbrel
 description: >-
-  testing
-developer: Dark98
-website: https://umbrel.com
-submitter: Dark98
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
-gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  Run VS Code on your Umbrel and access it in the browser so you can
+  code on any device with a consistent development environment. This way you can
+  use your Umbrel not only to code from any device, anywhere, but to also speed
+  up tests, compilations, downloads, and more.
+
+
+  By running all intensive tasks run on your Umbrel, preserve battery life of your devices when you're on the go.
 releaseNotes: >-
-  testing 2
+  This release updates the underlying VS Code editor to 1.100.3.
+
+
+  Key highlights in this release include:
+    - Added support for setting trusted domains for links at run-time
+    - Improved handling of flags with repeatable options via config file
+    - Disabled extension signature verification to resolve installation issues
+
+
+  Full release notes are available at https://github.com/coder/code-server/releases
+developer: Coder
+website: https://coder.com
 dependencies: []
+repo: https://github.com/cdr/code-server
+support: https://github.com/cdr/code-server/discussions
+port: 8091
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
 path: ""
 defaultUsername: ""
-defaultPassword: ""
+deterministicPassword: true
+torOnly: false
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel/commit/14f8b3aec8cb99ef0940ba0cd9df25b7126a95cc
