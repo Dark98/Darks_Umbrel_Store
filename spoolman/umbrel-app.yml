@@ -1,6 +1,6 @@
 manifestVersion: 1
-id: dus-windows-arm
-name: Windows ARM
+id: dus-spoolman
+name: Spoolman
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
 category: Development
